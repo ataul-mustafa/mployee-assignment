@@ -1,0 +1,43 @@
+.navBar{
+    width: 100vw;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 2%;
+    border-bottom: 1px solid #E8E7EC;
+}
+
+.navBar > .navs{
+    width: 65%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.navBar > .navs > li{
+    list-style: none;
+    font-size: 16px;
+    font-weight: 400;
+    color: #0C0D11;
+    /* padding: 5px 10px; */
+    cursor: pointer;
+}
+
+.navBar > .navs > .highlight{
+    background-color: #FF980029;
+    color: #FF9800;
+    padding: 10px 20px;
+    border-radius: 20px;
+}
+
+.navBar > .navs > :nth-child(7){
+    display: flex;
+    align-items: center;
+}
+
+.navBar > .navs > :nth-child(7) > img{
+    border-radius: 50%;
+    margin-right: 5px;
+}
